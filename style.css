@@ -5,6 +5,18 @@ body {
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
 .header {
   background-color: black;
   color: white;
@@ -15,10 +27,10 @@ body {
 .menu {
   background-color: rgb(215, 214, 212);
   width: 150px;
-  float: left;
   padding: 20px;
   padding-top: 100px;
-  height: 100%;
+  height: auto;
+  flex-shrink: 0;
 }
 
 a {
@@ -35,18 +47,18 @@ a:hover {
 }
 
 .content {
+  flex: 1;
   text-align: center;
   padding-top: 100px;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
 .footer {
   background-color: black;
   color: white;
   text-align: center;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  height: 60px;
 }
 
 .signature {
@@ -65,3 +77,4 @@ a:hover {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
+
