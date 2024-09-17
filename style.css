@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  background-color: rgb(215, 214, 212);
+  width: 150px;
+  float: left;
+  padding: 20px;
+  padding-top: 100px;
+  height: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(81, 76, 76);
+  font-weight: bolder;
+}
+
+.content {
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 100px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.signature {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  opacity: 100%;
+}
+
+.img {
+  width: 300px;
+}
+
+.sans {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
